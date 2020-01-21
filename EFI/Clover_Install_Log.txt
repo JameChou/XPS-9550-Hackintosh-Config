@@ -1,0 +1,52 @@
+
+Clover EFI installer log - Tue Jan 21 14:11:53 CST 2020
+Installer version: v2.5k r5103 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk3         255.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS code                    119.7 GB   disk1s2
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        *1.0 TB     disk2
+   1:        Apple_partition_map                         32.3 KB    disk2s1
+   2:                  Apple_HFS store                   1.0 TB     disk2s3
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume os                      134.6 GB   disk3s1
+   2:                APFS Volume Preboot                 22.7 MB    disk3s2
+   3:                APFS Volume Recovery                515.8 MB   disk3s3
+   4:                APFS Volume VM                      20.5 KB    disk3s4
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.8 GB    disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS Install macOS Catalina  15.5 GB    disk4s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Catalina
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Catalina
+Stage 2 - Written boot6 (x64) to /Volumes/Install macOS Catalina/boot
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
